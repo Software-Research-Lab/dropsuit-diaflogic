@@ -1,0 +1,33 @@
+{
+  "name": "dropsuit-diaflogic",
+  "version": "1.0.0",
+  "description": "A collection of JavaScript and Node.js functions for building and managing Button Messages and Bubble UI in Dialogflow chatbots.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ladooniani/dropsuit.git"
+  },
+  "keywords": [
+    "dialogflow",
+    "chatbot",
+    "nlp",
+    "button message",
+    "bubble UI",
+    "user choice condition"
+  ],
+  "author": "Lado Oniani",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ladooniani/dropsuit/issues"
+  },
+  "homepage": "https://github.com/ladooniani/dropsuit#readme",
+  "dependencies": {
+    "dropsuit-clnstr": "^1.0.11"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}

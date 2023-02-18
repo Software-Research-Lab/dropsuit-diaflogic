@@ -1,0 +1,32 @@
+[
+  {
+    "func_name": "sendButton",
+    "div_class": "buttons",
+    "btn_class": "btn",
+    "bubble_class": "botText"
+  },
+  {
+    "func_name": "sendButton",
+    "div_class": "buttons2",
+    "btn_class": "btn2",
+    "bubble_class": "botText2"
+  },
+  {
+    "func_name": "sendButton",
+    "div_class": "buttons3",
+    "btn_class": "btn3",
+    "bubble_class": "botText3"
+  },
+  {
+    "func_name": "sendButton",
+    "div_class": "buttons4",
+    "btn_class": "btn4",
+    "bubble_class": "botText4"
+  },
+  {
+    "func_name": "sendButton",
+    "div_class": "buttons5",
+    "btn_class": "btn5",
+    "bubble_class": "botText5"
+  }
+]
