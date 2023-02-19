@@ -323,7 +323,7 @@ Sets capsule CSS HTML design values, creates names and provides HTML button func
 ```
 Message bubble and button/s: {
   btn: `<div class='buttons2'><button class='btn2' onclick='sendButton("Login")'>Login</button><button class='btn2' onclick='sendButton("Register")'>Register</button><button class='btn2' onclick='sendButton("Links")'>Links</button></div>`,
-  message: '<p class="botText2"><span>You want Login or Register?</span></p>'
+  message: '<p class="botText2"><span>You want Login or Register?<sub>Feb 19, 2023, 2:59 AM</sub></span></p>'
 }
 ```
 
@@ -345,7 +345,9 @@ Agent Dialogflow Message HTML bubble and buttons.
 
 ```
 Flow Switch input: [ 'Out-of-thread output response message' ]
-Bubble: [ null ]
+Bubble: [
+  '<p class="botText"><span>Out-of-thread output response message</span></p>'
+]
 
 ```
 

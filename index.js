@@ -443,12 +443,31 @@ function dialogflowGate(fncValue, capsule) {
  */
 
 function bubble_f(capsule, message, dispout) {
+  let time = getTime();
   let output =
-    '<p class="' + capsule.dbf.bublC + '"><span>' + message + "</span></p>";
+    '<p class="' +
+    capsule.dbf.bublC +
+    '"><span>' +
+    message +
+    "<sub>" +
+    time +
+    "</sub>" +
+    "</span></p>";
   displayS0(capsule, message, dispout); /// DISPLAY >>>
   return output;
 }
 
+function getTime() {
+  let today = new Date();
+
+  let time = today.toLocaleString("en-US", {
+    dateStyle: "medium",
+    timeStyle: "short",
+    hour12: true,
+  });
+
+  return time;
+}
 //#endregion
 
 //#region flow_f
